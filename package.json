@@ -13,7 +13,8 @@
   },
   "preferGlobal": "true",
   "dependencies": {
-        "commander":"*"    
+        "commander":"*",
+        "colors":"0.6.2"
    },
   "devDependencies": {},
   "optionalDependencies": {},
