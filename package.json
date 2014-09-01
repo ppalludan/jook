@@ -16,7 +16,7 @@
     "start": "node ./jook.js"
   },
   "bin": {
-    "jook" : "./bin/jook"
+    "jook" : "./bin/jook.js"
   },
   "preferGlobal": "true",
   "dependencies": {
