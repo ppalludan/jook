@@ -6,7 +6,7 @@ jook
 `tl;dr` 
 Very simple Github Hook Server Written in Node.js
 
-## Installation
+## installation
 
 ```bash
 npm install jook
@@ -18,7 +18,7 @@ or to make it global
 npm install jook -g
 ```
 
-## Usage
+## usage
 
 	-p, --port [number]  
 
@@ -37,7 +37,7 @@ npm install jook -g
 		When started as a daemon, you can shut it down using this 
 
 
-## Configuration
+## configuration
 
 jook.config
 ```js
@@ -64,5 +64,5 @@ jook.config
 
 ## roadmap
 
-	Handle secret
-	Add security
+- Handle secret
+- Add security
