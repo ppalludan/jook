@@ -4,6 +4,13 @@
 `tl;dr` 
 Very simple Github Hook Server Written in Node.js
 
+## features
+
+- Invoke something like build, test or sysop based on github webhooks
+- Can run as a daemon
+- Has a buildin webserver for viewing log
+- Multiple steps for each repository
+
 ## installation
 
 ```bash
