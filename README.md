@@ -28,7 +28,7 @@ npm install jook -g
 
 	--start 
 
-		Run jook as a background process
+		Run jook as a background daemon
 
 	--stop
 
