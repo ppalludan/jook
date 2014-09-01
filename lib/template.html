@@ -17,7 +17,7 @@
 		}
 
 		#page {
-			margin : 50px auto;
+			margin : 0px auto;
 			width : 960px;
 		}
 
@@ -25,7 +25,9 @@
 			text-align: center;
 			padding : 10px;
 		}
-
+		header {
+			text-align: center;
+		}
 		#logo {
 			background : transparent url(logo.png) no-repeat;
 			width : 436px;
@@ -36,6 +38,11 @@
 
 		#logo span {
 			display : none;
+		}
+
+		h2 {
+			font-size:  21px;
+			margin-bottom:  20px;
 		}
 
 		table {
@@ -72,9 +79,14 @@
 </head>
 <body>
 	<div id="page">
-		<a id="logo">
-			<span>logo</span>
-		</a>
+		<header>
+			<a id="logo">
+				<span>logo</span>
+			</a>
+			<h2>Your very own Github WebHook Offloader</h2>
+		</header>
+
+
 		<div id="contents">
 			$contents
 		</div>
