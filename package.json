@@ -7,9 +7,16 @@
     "type": "git",
     "url": "https://github.com/ppalludan/jook.git"
   },
+  "keywords": [
+    "github",
+    "webhook"
+  ],
   "main": "bin/jook",
+  "scripts": {
+    "start": "node ./jook.js"
+  },
   "bin": {
-    "jook": "./bin/jook"
+    "jook" : "./bin/jook"
   },
   "preferGlobal": "true",
   "dependencies": {
