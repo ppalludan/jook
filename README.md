@@ -3,20 +3,20 @@ jook
 
 
 
-tl;dr 
-	Very simple Github Hook Server Written in Node.js
+`tl;dr` 
+Very simple Github Hook Server Written in Node.js
 
 ## Installation
 
-	```bash
-	npm install jook
-	```
+```bash
+npm install jook
+```
 
-    or to make it global
+or to make it global
 
-	```bash
-	npm install jook -g
-	```
+```bash
+npm install jook -g
+```
 
 ## Usage
 
@@ -39,28 +39,27 @@ tl;dr
 
 ## Configuration
 
-
-	jook.config
-	```js
-	{
-		"port" : 8080,
-	   	"repositories" : [
-	   		{
-	   			"name" : "ppalludan/jook",
-	   			"process" : [
-	   				{
-	                  	"name" : "test",
-	   					"exec" : "./bla/test.sh"
-	   				}, 
-	   				{
-	                 	"name" : "build",
-	   					"exec" : "./bla/build.sh"
-	   				}
-	   			]
-	   		}
-	   ]
-	}
-	```
+jook.config
+```js
+{
+	"port" : 8080,
+   	"repositories" : [
+   		{
+   			"name" : "ppalludan/jook",
+   			"process" : [
+   				{
+                  	"name" : "test",
+   					"exec" : "./bla/test.sh"
+   				}, 
+   				{
+                 	"name" : "build",
+   					"exec" : "./bla/build.sh"
+   				}
+   			]
+   		}
+   ]
+}
+```
 
 
 ## roadmap
