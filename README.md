@@ -1,6 +1,4 @@
-jook
-====
-
+![alt text](https://github.com/ppalludan/jook/blob/develop/lib/logo.png "Jook")
 
 
 `tl;dr` 
