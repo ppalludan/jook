@@ -2,7 +2,7 @@
   "author": "Peter Palludan",
   "name": "jook",
   "description": "Github Hook Server Written in Node.js",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "repository": {
     "type": "git",
     "url": "https://github.com/ppalludan/jook.git"
@@ -16,7 +16,7 @@
     "start": "node ./jook.js"
   },
   "bin": {
-    "jook" : "./bin/jook.js"
+    "jook" : "./bin/jook"
   },
   "preferGlobal": "true",
   "dependencies": {
