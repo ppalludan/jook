@@ -43,30 +43,29 @@ jook.config
 	"port" : 8080,
 	"username" : "your name",
 	"password" : "should be secret?",
-   	"repositories" : [
-   		{
-   			"name" : "ppalludan/jook",
-   			"process" : [
-   				{
-                  	"name" : "test",
-   					"exec" : "./bla/test.sh"
-   				}, 
-   				{
-                 	"name" : "build",
-   					"exec" : "./bla/build.sh"
-   				}
-   			]
-   		}
+	"repositories" : 
+   [
+		{
+			"name" : "ppalludan/jook",
+			"process" : [
+				{
+               "name" : "test",
+					"exec" : "./bla/test.sh"
+				}, 
+				{
+              	"name" : "build",
+					"exec" : "./bla/build.sh"
+				}
+			]
+		}
    ]
 }
 ```
 
-
 ## roadmap
 
 - Handle secret
-- Add security
-
+- Handle the different git events ( push, pull, etc.. )
 
 ## license
 
