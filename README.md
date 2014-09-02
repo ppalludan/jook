@@ -8,8 +8,9 @@ Very simple Github Hook Server Written in Node.js
 
 - Invoke something like build, test or sysop based on github webhooks
 - Can run as a daemon
-- Has a buildin webserver for viewing log
+- Has a buildin web dashboard to view logs
 - Multiple steps for each repository
+- Configurable by config file and process arguments
 
 ## installation
 
@@ -72,6 +73,8 @@ jook.config
 ## roadmap
 
 - Handle secret
+- Overview of repositories
+- Invoke webhooks from dashboard
 - Handle the different git events ( push, pull, etc.. )
 
 ## license
