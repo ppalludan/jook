@@ -1,5 +1,4 @@
-![alt text](https://github.com/ppalludan/jook/blob/develop/lib/logo.png "Jook")
-
+# [![Jook - Hook Server](https://github.com/ppalludan/jook/blob/develop/lib/logo.png)](http://www.github.com/ppalludan/jook)
 
 `tl;dr` 
 Very simple Github Hook Server Written in Node.js
@@ -42,9 +41,9 @@ npm install jook -g
 
 		When started as a daemon, you can shut it down using this 
 
-   -g, --genconfig 
-
-      Generate a template config file, for you to edit
+	-g, --genconfig [filename]
+	
+		Generate a template config file, for you to edit
 
 
 ## configuration
