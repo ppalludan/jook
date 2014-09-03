@@ -41,9 +41,9 @@ npm install jook -g
 
 		When started as a daemon, you can shut it down using this 
 
-   -g, --genconfig 
-
-      Generate a template config file, for you to edit
+	-g, --genconfig 
+	
+		Generate a template config file, for you to edit
 
 
 ## configuration
