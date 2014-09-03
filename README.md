@@ -1,5 +1,4 @@
-![alt text](https://github.com/ppalludan/jook/blob/develop/lib/logo.png "Jook")
-
+# [![Jook - Hook Server](https://github.com/ppalludan/jook/blob/develop/lib/logo.png)](http://www.github.com/ppalludan/jook)
 
 `tl;dr` 
 Very simple Github Hook Server Written in Node.js
