@@ -3,7 +3,8 @@
     "username": "a",
     "password": "b",
     "repositories": [{
-        "name": "repository/name",
+        "name": "ppalludan/foodiefriends",
+        "branch": "develop",
         "process": [{
                 "name": "list files",
                 "exec": "ls -ls"
